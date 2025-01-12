@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  background: linear-gradient(180deg, rgb(79, 79, 94) 0%, rgba(22,18,52,1) 50%, rgba(0,0,18,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  color:rgb(85, 42, 165);
+}
+.login{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box{
+  display: flex;
+  flex-flow:column wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+  height: 55%;
+  background-color: rgba(255, 255, 255, 0.959);
+  border-radius: 10px;
+  box-shadow: 5px rgb(5, 1, 43);
+  border: 2px solid rgba(0, 0, 0, 0.78);
+}
+
+.exit{
+  position: absolute;
+  top: 27%;
+  right: 28%;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.exit:hover{
+  color: rgb(2, 0, 104);
+}
+
+.login-box form{
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 70%;
+  gap: 5px;
+}
+
+.login-box form .userData{
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 5px;;
+}
+
+.login-box form .userData input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.356);
+}
+
+.login-box a{
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.login-box a:hover{
+  text-decoration: underline;
+  color: rgb(53, 2, 87);
+  font-weight: 620;
+}
+
+.login-box button{
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.582);
+  background-color: rgb(173, 115, 228);
+}
+
+.login-box button:hover{
+  background-color: rgb(34, 1, 77);
+  color: rgb(216, 206, 255);
+}
+
+#newMember{
+  margin-top: 10px;
+  font-size: 14px;
+}
